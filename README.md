@@ -288,7 +288,6 @@ words:
 ```
 
 
-- 背景を透過
-- 画像を分割
-  - https://splitimage.app/ja
+- 背景を透過: https://www.iloveimg.com/ja/remove-background
+- 画像を分割: https://splitimage.app/ja
 - 申請
