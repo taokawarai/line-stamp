@@ -197,7 +197,78 @@ words:
   - "<WORD_10>"
   - "<WORD_11>"
   - "<WORD_12>"
-``` 
+```
+
+省略版
+```yaml
+target_user: "xxx"
+
+layout:
+  rows: 3
+  cols: 4
+
+background:
+  chroma_key_color_hex: "#9ACD32"
+  cell_background: "#9ACD32"
+
+character:
+  placement: "中央基準でバランス配置"
+  scale: "セル高さの60〜80%"
+  variations:
+    - "立ち（腕組み/片手挙げ）"
+    - "座り"
+    - "ジャンプ"
+    - "微表情変化"
+    - "小物所持"
+  note: "元の特徴を維持しつつポーズ変化。表情は控えめ"
+
+text:
+  style:
+    use_speech_bubble: false
+    font_family: "Noto Sans JP / Rounded Sans"
+    font_weight: "extra-bold"
+    fill_color: "#000000"
+    outline: { enabled: true, color: "#FFFFFF", width_px: 2 }
+  constraints:
+    - "吹き出し不可。黒文字＋白縁のみ"
+    - "背景#9ACD32と高コントラスト"
+    - "キャラの重要部を覆わない"
+
+design:
+  variety:
+    - "文字位置・サイズ・ポーズを分散"
+    - "縦長/横長/2段など混在"
+    - "小物で変化を追加"
+  accessibility:
+    - "スマホで明瞭に読める文字サイズ"
+    - "白縁2px＋黒文字で視認性確保"
+  balance:
+    - "3x4で均等配置"
+    - "各セル単体で成立"
+
+export:
+  color_profile: "sRGB"
+
+notes:
+  - "キャラを切り抜き配置。背景は必ず#9ACD32の単色"
+  - "12個の構図が単調にならないよう必ず変化をつける"
+  - "文字欠けや干渉が無いか最終確認"
+
+words:
+  - "<WORD_01>"
+  - "<WORD_02>"
+  - "<WORD_03>"
+  - "<WORD_04>"
+  - "<WORD_05>"
+  - "<WORD_06>"
+  - "<WORD_07>"
+  - "<WORD_08>"
+  - "<WORD_09>"
+  - "<WORD_10>"
+  - "<WORD_11>"
+  - "<WORD_12>"
+```
+
 
 - 背景を透過
 - 画像を分割
