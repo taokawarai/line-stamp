@@ -1,7 +1,7 @@
 # line-stamp
 
 - ベースイメージを作成
-- キャラクターシートを作成： https://aistudio.google.com/prompts/new_chat?model=gemini-2.5-flash-image
+- キャラクターシートを作成： https://felo.ai/ja/livedoc/
 
 ```yaml
 title: "キャラクター設定シート生成プロンプト"
@@ -96,7 +96,7 @@ words:
   - "<WORD_12>"
 ```
   
-- スタンプ用画像を作成
+- スタンプ用画像を作成: https://felo.ai/ja/livedoc/
 
 ```yaml
 # LINEスタンプ作成プロンプト（画像生成・デザイナー指示用）
