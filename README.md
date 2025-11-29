@@ -248,7 +248,10 @@ text:
     font_family: "Noto Sans JP / Rounded Sans"
     font_weight: "extra-bold"
     fill_color: "#000000"
-    outline: { enabled: true, color: "#FFFFFF", width_px: 2 }
+    outline:
+      enabled: true
+      color: "#FFFFFF"
+      width_px: 2
   constraints:
     - "吹き出し不可。黒文字＋白縁のみ"
     - "背景#9ACD32と高コントラスト"
@@ -273,6 +276,9 @@ notes:
   - "キャラを切り抜き配置。背景は必ず#9ACD32の単色"
   - "12個の構図が3行4列で配置され、単調にならないよう必ず変化をつける"
   - "文字欠けや干渉が無いか最終確認"
+  - "各セルは words の該当ワードを必ず1つ表示する"
+  - "12個のスタンプは words の内容とポーズや構図も関連づけて表現する（例：元気系 → ジャンプ、落ち込み系 → うつむき、など）"
+  - "文字は細い白縁を保ちつつ、セルごとに読みやすい最適配置に調整する"
 
 words:
   - "<WORD_01>"
