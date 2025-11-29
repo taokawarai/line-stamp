@@ -7,4 +7,5 @@
 - スタンプ用画像を作成
 - 背景を透過
 - 画像を分割
+  - https://splitimage.app/ja
 - 申請
