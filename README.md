@@ -287,7 +287,6 @@ words:
   - "<WORD_12>"
 ```
 
-
-- 背景を透過: https://www.iloveimg.com/ja/remove-background
 - 画像を分割: https://splitimage.app/ja
+- 背景を透過: https://apps.apple.com/jp/app/背景透過-消しゴムマジック-切り抜き-消しゴムアプリ/id828824624
 - 申請
