@@ -1,0 +1,1 @@
+- https://store.line.me/stickershop/product/10126905/ja
