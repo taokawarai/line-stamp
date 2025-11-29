@@ -225,60 +225,52 @@ target_user: "xxx"
 layout:
   rows: 3
   cols: 4
-  cell_count: 12
 
 background:
   chroma_key_color_hex: "#9ACD32"
-  cell_background: "#9ACD32"
 
 character:
-  placement: "中央基準でバランス配置"
-  scale: "セル高さの60〜80%"
+  placement: "中央"
+  scale: "高さ60〜80%"
   variations:
-    - "立ち（腕組み/片手挙げ）"
+    - "立ち/腕組み/片手挙げ"
     - "座り"
     - "ジャンプ"
-    - "微表情変化"
+    - "軽い表情変化"
     - "小物所持"
-  note: "元の特徴を維持しつつポーズ変化。表情は控えめ"
+  note: "特徴維持しつつポーズ変化"
 
 text:
   style:
-    use_speech_bubble: false
-    font_family: "Noto Sans JP / Rounded Sans"
+    font_family: "Noto Sans JP"
     font_weight: "extra-bold"
     fill_color: "#000000"
-    outline:
-      enabled: true
-      color: "#FFFFFF"
-      width_px: 2
+    outline: { enabled: true, color: "#FFFFFF", width_px: 2 }
   constraints:
-    - "吹き出し不可。黒文字＋白縁のみ"
-    - "背景#9ACD32と高コントラスト"
-    - "キャラの重要部を覆わない"
+    - "吹き出し禁止・黒文字＋白縁"
+    - "背景と高コントラスト"
+    - "キャラの重要部を塞がない"
 
 design:
   variety:
-    - "文字位置・サイズ・ポーズを分散"
-    - "縦長/横長など混在"
-    - "小物で変化を追加"
+    - "文字位置/サイズ/ポーズを分散"
+    - "縦長/横長混在"
+    - "小物で変化"
   accessibility:
-    - "スマホで明瞭に読める文字サイズ"
-    - "白縁2px＋黒文字で視認性確保"
+    - "スマホで読みやすいサイズ"
   balance:
-    - "3x4で均等配置"
+    - "3x4で均等"
     - "各セル単体で成立"
 
 export:
   color_profile: "sRGB"
 
 notes:
-  - "キャラを切り抜き配置。背景は必ず#9ACD32の単色"
-  - "12個の構図が3行4列で配置され、単調にならないよう必ず変化をつける"
-  - "文字欠けや干渉が無いか最終確認"
-  - "各セルは words の該当ワードを必ず1つ表示する"
-  - "12個のスタンプは words の内容とポーズや構図も関連づけて表現する（例：元気系 → ジャンプ、落ち込み系 → うつむき、など）"
-  - "文字は細い白縁を保ちつつ、セルごとに読みやすい最適配置に調整する"
+  - "背景は必ず#9ACD32単色"
+  - "12セルすべて異なる構図"
+  - "words の文言を1セルにつき1つ表示"
+  - "文言の意味に合うポーズを選択"
+  - "白縁文字が欠けないよう調整"
 
 words:
   - "<WORD_01>"
