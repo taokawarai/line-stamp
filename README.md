@@ -1,7 +1,9 @@
 # line-stamp
 
 - ベースイメージを作成
-- キャラクターシートを作成： https://felo.ai/ja/livedoc/
+- キャラクターシートを作成：
+  - https://felo.ai/ja/livedoc/
+  - https://www.genspark.ai/
 
 <details>
 <summary>キャラクター設定シート生成プロンプト</summary>
@@ -108,7 +110,9 @@ words:
 </details>
 
   
-- スタンプ用画像を作成: https://felo.ai/ja/livedoc/
+- スタンプ用画像を作成:
+  - https://felo.ai/ja/livedoc/
+  - https://www.genspark.ai/
 
 <details>
 <summary>スタンプ用画像作成プロンプト</summary>
