@@ -3,6 +3,9 @@
 - ベースイメージを作成
 - キャラクターシートを作成： https://felo.ai/ja/livedoc/
 
+<details>
+<summary>キャラクター設定シート生成プロンプト</summary>
+
 ```yaml
 title: "キャラクター設定シート生成プロンプト"
 
@@ -75,8 +78,14 @@ notes:
 
 ```
 
+</details>
+
+
 - テーマを作成
 - テーマごとにスタンプ案を作成
+
+<details>
+<summary>スタンプ案作成プロンプト</summary>
 
 ```
 下記の単語を12個ずつ以下のフォーマットで出力してください。
@@ -95,8 +104,14 @@ words:
   - "<WORD_11>"
   - "<WORD_12>"
 ```
+
+</details>
+
   
 - スタンプ用画像を作成: https://felo.ai/ja/livedoc/
+
+<details>
+<summary>スタンプ用画像作成プロンプト</summary>
 
 ```yaml
 # LINEスタンプ作成プロンプト（画像生成・デザイナー指示用）
@@ -218,7 +233,12 @@ words:
   - "<WORD_12>"
 ```
 
-省略版
+
+</details>
+
+<details>
+<summary>スタンプ用画像作成プロンプト（省略版）</summary>
+
 ```yaml
 target_user: "xxx"
 
@@ -286,6 +306,8 @@ words:
   - "<WORD_11>"
   - "<WORD_12>"
 ```
+
+</details>
 
 - 画像を分割: https://splitimage.app/ja
 - 背景を透過: https://apps.apple.com/jp/app/背景透過-消しゴムマジック-切り抜き-消しゴムアプリ/id828824624
