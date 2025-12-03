@@ -384,5 +384,7 @@ notes:
 
 </details>
 
-- 背景を透過: https://apps.apple.com/jp/app/背景透過-消しゴムマジック-切り抜き-消しゴムアプリ/id828824624
+- 背景を透過:
+  - ブラウザ: https://www.iloveimg.com/ja/remove-background
+  - iPhone: https://apps.apple.com/jp/app/背景透過-消しゴムマジック-切り抜き-消しゴムアプリ/id828824624
 - 申請
