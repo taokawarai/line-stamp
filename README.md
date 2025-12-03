@@ -2,6 +2,7 @@
 
 - ベースイメージを作成
 - キャラクターシートを作成：
+  - https://gemini.google.com/app?hl=ja （思考モード + 画像生成）
   - https://felo.ai/ja/livedoc/
   - https://www.genspark.ai/
 
@@ -111,6 +112,7 @@ words:
 
   
 - スタンプ用画像を作成:
+  - https://gemini.google.com/app?hl=ja （思考モード + 画像生成） 
   - https://felo.ai/ja/livedoc/
   - https://www.genspark.ai/
 
